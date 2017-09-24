@@ -1,6 +1,6 @@
 # clamtk-mate
 
-This readme file was last updated 7 Sept 2017
+This readme file was last updated 24 Sept 2017
 
 # README for clamtk-mate
 
@@ -9,7 +9,6 @@ clamtk-mate is a simple plugin for
 context menu scan of files or folders in the Caja file manager.
 
 It's based on clamtk-gnome https://github.com/dave-theunsub/clamtk-gnome
-
 
 
 ### Manual installation
@@ -45,11 +44,11 @@ It's based on clamtk-gnome https://github.com/dave-theunsub/clamtk-gnome
 
 ## Links
 
+* https://github.com/darkshram/clamtk-mate/
 * http://dave-theunsub.github.io/clamtk/
 * https://github.com/dave-theunsub/clamtk-gnome
 * https://bitbucket.org/davem_/clamtk-gnome
 * http://standards.freedesktop.org/desktop-entry-spec/latest/
-* http://code.google.com/p/clamtk/ (no longer used)
 
 ## Contact
 
