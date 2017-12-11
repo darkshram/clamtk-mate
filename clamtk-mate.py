@@ -1,9 +1,10 @@
 #!/usr/bin/python
+# clamtk-mate version 0.02.01
 #
 # ClamTk, copyright (C) 2004-2017 Dave M
 # clamtk-mate, copyright (C) 2017-2018 Joel Barrios
 #
-# This file is part of ClamTk (http://code.google.com/p/clamtk/).
+# This file was part of ClamTk (https://dave-theunsub.github.io/clamtk/).
 #
 # ClamTk is free software; you can redistribute it and/or modify it
 # under the terms of either:
