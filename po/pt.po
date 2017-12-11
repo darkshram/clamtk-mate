@@ -11,7 +11,7 @@ msgstr ""
 "POT-Creation-Date: 2017-12-11 06:29-0600\n"
 "PO-Revision-Date: 2017-12-11 07:55-0600\n"
 "Last-Translator: Joel Barrios <darkshram@gmail.com>\n"
-"Language-Team: German <darkshram@gmail.com>\n"
+"Language-Team: Portuguese <darkshram@gmail.com>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,17 +19,17 @@ msgstr ""
 
 #: clamtk-mate.py:59
 msgid "Scan for threats..."
-msgstr "Auf Bedrohungen untersuchen..."
+msgstr "A analizar ameaças..."
 
 #: clamtk-mate.py:60
 #, python-format
 msgid "Scan %s for threats..."
-msgstr "%s auf Bedrohungen untersuchen..."
+msgstr "Analisar %s por ameaças..."
 
 #: clamtk-mate.py:71
 msgid "Scan directory for threats..."
-msgstr "Ordner auf Bedrohungen untersuchen..."
+msgstr "Analisar directório por ameaças..."
 
 #: clamtk-mate.py:72
 msgid "Scan this directory for threats..."
-msgstr "Diesen Ordner auf Bedrohungen untesuchen..."
+msgstr "Analisar este directório por ameaças..."

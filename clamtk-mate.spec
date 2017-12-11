@@ -1,0 +1,46 @@
+Name:              clamtk-mate
+Version:           0.02.01
+Release:           1%{?dist}
+URL:               https://github.com/darkshram/clamtk-mate/
+License:           GPLv2+/Artistic license
+Summary:           ClamTk plugin for MATE Desktop.
+Source0:           https://github.com/darkshram/clamtk-mate/releases/download/%{version}/%{name}-%{version}.tar.xz
+BuildArch:         noarch
+
+Requires:          python-caja
+Requires:          clamtk
+Requires:          clamav-update
+
+%description
+Clamtk-mate is a simple plugin to allow a right-click, context menu scan of
+files or folders in MATE Desktop.
+
+Clamtk-mate is based on clamtk-gnome.
+
+%prep
+%autosetup -p1
+
+%build
+# nothing to do
+
+%install
+%{__mkdir_p} %{buildroot}%{_datadir}/python-caja/extensions/
+install -m 755 %{name}.py %{buildroot}%{_datadir}/python-caja/extensions/
+
+for n in po/*.mo ; do
+        install -p -D -m0644 $n %{buildroot}/%{_datadir}/locale/`basename $n .mo`/LC_MESSAGES/%{name}.mo
+done
+
+%find_lang %{name}
+
+%files -f %{name}.lang
+%doc NEWS.md README.md docs _img
+%license LICENSE DISCLAIMER
+%{_datadir}/python-caja/extensions/clamtk-mate.py*
+
+%changelog
+* Mon Dec 11 2017 Joel Barrios <http://www.alcancelibre.org/> - 0.02.01-1
+- Update to 0.02.01
+
+* Sun Sep 24 2017 Joel Barrios <http://www.alcancelibre.org/> - 0.02-1
+- Initial build.
