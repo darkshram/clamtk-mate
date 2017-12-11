@@ -1,5 +1,6 @@
 0.02.01 - 11 Dec 2017
-		* Add localization.
+---------------------
+        * Add localization for german, spanish, french, italian, portuguese and russian.
 
 0.02 - 24 Sep 2017
 -----------------
