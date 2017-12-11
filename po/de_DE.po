@@ -11,25 +11,25 @@ msgstr ""
 "POT-Creation-Date: 2017-12-11 06:29-0600\n"
 "PO-Revision-Date: 2017-12-11 07:55-0600\n"
 "Last-Translator: Joel Barrios <darkshram@gmail.com>\n"
-"Language-Team: Spanish <darkshram@gmail.com>\n"
-"Language: es\n"
+"Language-Team: German <darkshram@gmail.com>\n"
+"Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: clamtk-mate.py:59
 msgid "Scan for threats..."
-msgstr "Verificar si hay amenazas..."
+msgstr "Nach bedrohungen suchen..."
 
 #: clamtk-mate.py:60
 #, python-format
 msgid "Scan %s for threats..."
-msgstr "Verificar si hay amenazas en %s ..."
+msgstr "Scannen sie %s nach Bedrohungen..."
 
 #: clamtk-mate.py:71
 msgid "Scan directory for threats..."
-msgstr "Verificar si hay amenazas en directorio..."
+msgstr "Durchsuchen sie das verzeichnis nach bedrohungen..."
 
 #: clamtk-mate.py:72
 msgid "Scan this directory for threats..."
-msgstr "Verificar si este directorio contiene amenazas..."
+msgstr "Durchsuchen sie dieses verzeichnis nach bedrohungen..."
