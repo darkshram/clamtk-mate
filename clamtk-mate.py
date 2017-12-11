@@ -1,6 +1,7 @@
 #!/usr/bin/python
 #
 # ClamTk, copyright (C) 2004-2017 Dave M
+# clamtk-mate, copyright (C) 2017-2018 Joel Barrios
 #
 # This file is part of ClamTk (http://code.google.com/p/clamtk/).
 #
@@ -31,9 +32,9 @@ class OpenTerminalExtension(GObject.GObject, Caja.MenuProvider):
     def _open_scanner(self, file):
         filename = file.get_location().get_path()
         #- file is of type caja-vsf-file
-        # https://github.com/mate-desktop/caja/blob/master/src/caja-file.h
+        # https://github.com/GNOME/nautilus/blob/master/src/nautilus-file.h
         # which inherits from caja-file
-        # https://github.com/mate-desktop/caja/blob/master/src/caja-vfs-file.h
+        # https://github.com/GNOME/nautilus/blob/master/src/nautilus-vfs-file.h
         #- get_location returns a GFile
         # https://developer.gnome.org/gio/stable/GFile.html
         # which has the get_path function which returns the absolute path as a string
