@@ -1,0 +1,23 @@
+commit 2b483dc0346f675e2f7a3342ea63b7bb99460a07
+Author: Joel Barrios <darkshram@gmail.com>
+Date:   Mon Dec 11 07:40:31 2017 -0600
+
+    Generate .mo files.
+
+commit 8971b3a5e0b975788c64d1c2c93230ca27c7f299
+Author: Joel Barrios <darkshram@gmail.com>
+Date:   Mon Dec 11 06:43:04 2017 -0600
+
+    Added localization for english and spanish.
+
+commit 9905321f2de49354b9f387582820da4337f4b2f9
+Author: Joel Barrios <darkshram@gmail.com>
+Date:   Sun Sep 24 16:51:19 2017 -0500
+
+    Update README.md
+
+commit 81e83dbe440bf936bcb65641075f98bf9c6dde90
+Author: Joel Barrios <darkshram@gmail.com>
+Date:   Sun Sep 24 16:49:01 2017 -0500
+
+    first commit

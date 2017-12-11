@@ -1,4 +1,5 @@
-CHANGELOG for clamtk-mate:
+0.02.01 - 11 Dec 2017
+		* Add localization.
 
 0.02 - 24 Sep 2017
 -----------------
