@@ -1,6 +1,6 @@
 # clamtk-mate
 
-This readme file was last updated 24 Sept 2017
+This readme file was last updated 18 June 2019
 
 # README for clamtk-mate
 
@@ -14,7 +14,7 @@ It's based on clamtk-gnome https://github.com/dave-theunsub/clamtk-gnome
 ### Manual installation
 
 1. Install [ClamTk](https://github.com/dave-theunsub/clamtk). You'll need version 4.00 or newer.
-2. Additionally, you need to install python-caja
+2. Additionally, you need to install __python2-caja__
 3. Download the project files
 4. As root run `cp clamtk-mate.py /usr/share/caja-python/extensions/`
 5. Restart Caja
