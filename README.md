@@ -40,7 +40,7 @@ It's based on clamtk-gnome https://github.com/dave-theunsub/clamtk-gnome
 ## Dependencies
 
 * `clamtk` >= 4.00
-* python-caja build with python2. Please do not fill issues (yet) if you build python-caja with python3.
+* python-caja build with python2. Please do not fill issues (yet) if you built python-caja with python3.
 
 ## Links
 
